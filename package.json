@@ -2,9 +2,7 @@
   "name": "using-zod-to-openapi-with-NestJS",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
+    "postinstall": "turbo codegen",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
