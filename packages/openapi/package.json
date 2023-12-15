@@ -20,7 +20,8 @@
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "type-check": "tsc",
-    "codegen": "tsup && vite-node ./src/generate.ts"
+    "bundle": "tsup",
+    "codegen": "npm run bundle && vite-node ./src/generate.ts"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
