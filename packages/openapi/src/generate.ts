@@ -144,7 +144,7 @@ function getOpenApiDocumentation() {
         name: "MIT",
       },
     },
-    servers: [{ url: "http://petstore.swagger.io/v1" }],
+    servers: [{ url: "http://example.com/v1" }],
   });
 }
 
